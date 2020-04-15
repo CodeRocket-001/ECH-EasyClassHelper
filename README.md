@@ -25,3 +25,5 @@ Remember: You can create a shortcut for ECH.exe, but never move it, or the progr
 ### This is a open-source project
 
 Tell me if you have some ideas to make ECH better.
+
+>language: Python<br>mudule: PyQt5

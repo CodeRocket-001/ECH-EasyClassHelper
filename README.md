@@ -28,4 +28,4 @@ Tell me if you have some ideas to make ECH better.
 
 ### Develop environment
 
->language: Python<br>mudules: Python Standard Lib, PyQt5
+>language: Python3<br>mudules: Python Standard Lib, PyQt5

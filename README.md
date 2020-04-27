@@ -26,4 +26,6 @@ Remember: You can create a shortcut for ECH.exe, but never move it, or the progr
 
 Tell me if you have some ideas to make ECH better.
 
->language: Python<br>mudule: PyQt5
+### Develop environment
+
+>language: Python<br>mudules: Python Standard Lib, PyQt5

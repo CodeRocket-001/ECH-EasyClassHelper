@@ -119,11 +119,11 @@ class echSaver():
                 for stu in test.stus:
                     t["MARK"].append({"NO":stu.no,"NAME":stu.name,"MARK":stu.mark})
                 res[name]["TESTS"].append(t)
-        fwrite=open("./saves/save.json","w")
+        fwrite=open(self.file,"w")
         json.dump(res,fwrite,indent=4)
 
     def load(self):
-        fread=open("./saves/save.json","r")
+        fread=open(self.file,"r")
         s=json.load(fread)
         res={}
         for name,clas in s.items():
